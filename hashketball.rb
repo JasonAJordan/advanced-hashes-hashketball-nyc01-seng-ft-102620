@@ -172,16 +172,26 @@ end
 
 
 def team_colors(team)
+<<<<<<< HEAD
   game_hash.each do |location, team_data|
     
     team_data.each do|attribute, data|
     #binding.pry
       if data == team
         return team_data[:colors]
+=======
+  color = nil
+  game_hash.each do |location, team_data|
+    
+    team_data.each do|attribute, data|
+      if attribute[data] == team
+        color = attribute[:colors]
+>>>>>>> 08a11f9405f7b52e8bc155d9f2475290f1ceb917
       end 
     end 
         
   end 
+<<<<<<< HEAD
 end 
 
 
@@ -260,3 +270,7 @@ def big_shoe_rebounds
 end 
             
             
+=======
+  color
+end 
+>>>>>>> 08a11f9405f7b52e8bc155d9f2475290f1ceb917
