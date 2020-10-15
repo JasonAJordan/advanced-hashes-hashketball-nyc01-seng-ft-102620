@@ -270,7 +270,3 @@ def big_shoe_rebounds
 end 
             
             
-=======
-  color
-end 
->>>>>>> 08a11f9405f7b52e8bc155d9f2475290f1ceb917
